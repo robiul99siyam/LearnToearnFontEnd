@@ -23,9 +23,12 @@ const Hero = () => {
 
                 </div>
                 <div className='col-lg-6 col-sm-12 col-md-6 col-6'>
-                    <img className='hero-img' src="https://i.ibb.co/nr6mDCG/graphic-cartoon-character-freelancer-vector-35942020-1.jpg" alt="" />
+                    <img className='hero-img' src="https://i.ibb.co/2gqNnWK/graphic-cartoon-character-freelancer-vector-35942020-1-removebg-preview.png" alt="" />
                 </div>
             </div>
+
+
+            <div className='p-5'></div>
         </>
     )
 }

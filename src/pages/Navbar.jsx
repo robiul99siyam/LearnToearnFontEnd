@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg sticky-top">
             <div className="container">
-                <img style={{ maxWidth: "85px" }} src="https://i.ibb.co/LJtybVR/black-yellow-minimalist-Idea-Logo-1-qmqo8tli39t0tbnmf984bih5cwhq45k6sbjdrvv2bs.png" alt="Logo" />
+                <img style={{ maxWidth: "85px" , marginTop:"-15px"}} src="https://i.ibb.co/LJtybVR/black-yellow-minimalist-Idea-Logo-1-qmqo8tli39t0tbnmf984bih5cwhq45k6sbjdrvv2bs.png" alt="Logo" />
                 <button
                     className="navbar-toggler"
                     type="button"
