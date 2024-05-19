@@ -18,10 +18,22 @@ const Contact = () => {
 	return (
 		<>
 			<Navbar />
-			<div className='contact-section container shadow-sm'>
+
+			<div className='container mt-5'>
+				<iframe
+					src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58786.85268972038!2d91.119853!3d22.94366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3754a3cbef2d9475%3A0xe7d5c59a71611dc2!2sChowmuhani%2C%20Bangladesh!5e0!3m2!1sen!2sus!4v1716116920110!5m2!1sen!2sus'
+					width='100%'
+					height='450'
+				></iframe>
+			</div>
+
+			<div className='contact-section container shadow p-5 mb-5 rounded'>
 				<div className='col-lg-6 col-sm-12 col-md-6 col-6'>
-					<img src='' alt='' />
-					{/* Image goes here */}
+					<img
+						style={{ width: 'full' }}
+						src='https://i.ibb.co/b5tb4xn/240-F-373536705-m3-X7-A1m-Wmus5fn-FIPl-LNMGGk7-Yqi0s8c-removebg-preview.png'
+						alt=''
+					/>
 				</div>
 				<div className='col-lg-6 col-sm-12 col-md-6 col-6'>
 					<form onSubmit={handleSubmit}>
