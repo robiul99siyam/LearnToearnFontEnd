@@ -9,7 +9,7 @@ const Bootcamp = () =>
             <BootForm />
             <Footer />
             
-        <h1>Hi</h1>
+       
         </>
     );
 }
