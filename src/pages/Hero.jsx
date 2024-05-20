@@ -16,7 +16,7 @@ const Hero = () => {
                             <Link to="/" style={{ textDecoration: "none", color: "inherit" }}> Join With Us </Link>
                         </button>
 
-                        <button className='hvr-sweep-to-right hero-btn'>
+                        <button className='hvr-sweep-to-right hero-btn1'>
                             <Link to="/" style={{ textDecoration: "none", color: "inherit" }}> Join Free Class </Link>
                         </button>
                     </div>

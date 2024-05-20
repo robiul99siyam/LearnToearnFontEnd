@@ -44,12 +44,14 @@ const Footer = () => {
 								Learn To Earn
 							</p>
 						</div>
-						<p className='text-light ms-3'>
-							Freelancing And Business Guidelines
-							<br />
-							শুরু করুন শুরু থেকে, ফ্রিল্যান্সিং জার্নি আমাদের
-							সাথে
-						</p>
+						<div>
+						<iframe
+					src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58786.85268972038!2d91.119853!3d22.94366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3754a3cbef2d9475%3A0xe7d5c59a71611dc2!2sChowmuhani%2C%20Bangladesh!5e0!3m2!1sen!2sus!4v1716116920110!5m2!1sen!2sus'
+					width='250px'
+					height='100px'
+				></iframe>
+						</div>
+						
 					</div>
 					{/* Grid column */}
 

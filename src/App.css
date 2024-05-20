@@ -64,22 +64,38 @@ body {
 
 .hero-btn {
 	border-radius: 2px;
-	background-color: white;
+	background-color: #ffde59;
 	width: 150px;
 	height: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid slateblue;
+	border:none;
+	font-weight: 600;
+}
+
+.hero-btn1 {
+	border-radius: 2px;
+	background-color: #ff8bd2;
+	width: 150px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:none;
+	font-weight: 600;
 }
 
 .hero-h1 {
 	font-size: 70px;
 	font-weight: bolder;
-	background: #5048ec;
+	/* color:"rgb(92,225,230)" */
+	color:#5ce1e6;
+	/* background: #5048ec;
 	background: linear-gradient(to right, #5048ec 5%, #625d7e 100%);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
+
 }
 
 .hero-h5 {
