@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './data/Index'; 
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Bootcamp from './pages/Bootcamp';
 
 function App() {
     return (
@@ -10,7 +11,8 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/contact' element={<Contact />} />
-				<Route path='/about' element={ <About />} />
+				<Route path='/about' element={<About />} />
+				<Route path='/bootcamp' element={<Bootcamp />} />
 
 				{/* Add more routes here if needed */}
 			</Routes>
