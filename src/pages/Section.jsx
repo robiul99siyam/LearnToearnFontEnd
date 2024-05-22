@@ -3,11 +3,11 @@ const Section = () => {
         <>
 
             <div className="d-flex justify-content-center">
-                <img style={{ maxWidth: "400px" }} src="https://learntoearnbd.com/wp-content/uploads/2024/04/10-1536x1536.png" alt="" />
+                <img className="section-img" src="https://learntoearnbd.com/wp-content/uploads/2024/04/10-1536x1536.png" alt="" />
             </div>
 
             <br />
-            <div className="d-flex justify-content-center align-items-center flex-wrap gap-5 mb-5">
+            <div className="d-flex justify-content-center align-items-center flex-wrap gap-5 mb-5 seation">
                 <div className="card shadow b-none" style={{ width: "550px", height: "120px" }}>
                     <div className="row g-0">
                         <div className="col-md-4 d-flex justify-content-center align-items-center">

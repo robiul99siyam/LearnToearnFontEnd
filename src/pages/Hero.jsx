@@ -7,7 +7,7 @@ const Hero = () => {
         <>
 
             <div className="hero container">
-                <div className='col-lg-6 col-sm-12 col-md-6 col-6'>
+                <div className='col-lg-6 col-sm-12 col-md-6 '>
                     <h1 className='hero-h1'>Learn  <br /> To Earn</h1>
                     <h5 className='hero-h5'>Freelancing And Business Guidelines</h5>
                     <p className='hero-p'>শুরু করুন শুরু থেকে, ফ্রিল্যান্সিং জার্নি আমাদের সাথে</p>
@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <div className='col-lg-6 col-sm-12 col-md-6 col-6'>
+                <div className='col-lg-6 col-sm-12 col-md-6 '>
                     <img className='hero-img' src="https://i.ibb.co/2gqNnWK/graphic-cartoon-character-freelancer-vector-35942020-1-removebg-preview.png" alt="" />
                 </div>
             </div>

@@ -2,8 +2,10 @@ const AboutCom = () => {
     return (
         <>
 
-            <div className='container mx-auto shadow-sm p-5 mb-5 rounded'>
-                <div className='ps-5 pe-5 d-flex gap-5 align-items-center justify-content-around'>
+<h1 className='text-center fw-bolder mt-5 '>ABOUT</h1>
+
+            <div className='container mx-auto shadow-sm  mb-5 rounded'>
+                <div className='ps-5 pe-5 d-flex gap-5 align-items-center justify-content-around about-com'>
                     <div>
                         <img
                             style={{ maxWidth: '250px' }}
@@ -12,7 +14,7 @@ const AboutCom = () => {
                         />
                     </div>
                     <div>
-                        <p className='w-75 fs-5 about-p text-success'>
+                        <p className='text-success'>
                             আপনার অনলাইন বিজনেস এবং ফ্রিল্যান্সিং ক্যারিয়ার শুরু
                             করুন আমাদের সাথে একটি সঠিক গাইডলাইন যা আপনি পেয়ে
                             যাবেন Learn To Earn এর কাছ থেকে
