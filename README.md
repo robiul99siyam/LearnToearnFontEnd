@@ -2,7 +2,17 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:import React, { useState } from 'react';
+Currently, two official plugins are available:
+
+
+
+
+
+
+
+
+# function here 
+import React, { useState } from 'react';
 import './App.css';
 import Get from './Get';
 
